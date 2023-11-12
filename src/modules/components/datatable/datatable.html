@@ -1,0 +1,11 @@
+<template>
+  <lightning-datatable
+    hide-checkbox-column
+    show-row-number-column
+    min-column-width="200"
+    key-field={keyField}
+    data={records}
+    columns={columns}
+    onrowaction={handleRowAction}
+  ></lightning-datatable>
+</template>

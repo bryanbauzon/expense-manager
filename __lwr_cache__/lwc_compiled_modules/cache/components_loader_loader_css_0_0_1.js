@@ -1,0 +1,8 @@
+function stylesheet(token, useActualHostSelector, useNativeDirPseudoclass) {
+  var shadowSelector = token ? ("[" + token + "]") : "";
+  var hostSelector = token ? ("[" + token + "-host]") : "";
+  var suffixToken = token ? ("-" + token) : "";
+  return ".loader-wrapper" + shadowSelector + "{background: rgb(0 0 0 / 70%);min-height: 100vh;width: 100%;display: flex;justify-content: center;align-items: center;position: fixed;z-index: 999;}.lds-ellipsis" + shadowSelector + " {display: inline-block;position: relative;width: 80px;height: 80px;}.lds-ellipsis" + shadowSelector + " div" + shadowSelector + " {position: absolute;top: 33px;width: 13px;height: 13px;border-radius: 50%;background: #fff;animation-timing-function: cubic-bezier(0, 1, 1, 0);}.lds-ellipsis" + shadowSelector + " div:nth-child(1)" + shadowSelector + " {left: 8px;animation: lds-ellipsis1" + suffixToken + " 0.6s infinite;}.lds-ellipsis" + shadowSelector + " div:nth-child(2)" + shadowSelector + " {left: 8px;animation: lds-ellipsis2" + suffixToken + " 0.6s infinite;}.lds-ellipsis" + shadowSelector + " div:nth-child(3)" + shadowSelector + " {left: 32px;animation: lds-ellipsis2" + suffixToken + " 0.6s infinite;}.lds-ellipsis" + shadowSelector + " div:nth-child(4)" + shadowSelector + " {left: 56px;animation: lds-ellipsis3" + suffixToken + " 0.6s infinite;}@keyframes lds-ellipsis1" + suffixToken + " {0% {transform: scale(0);}100% {transform: scale(1);}}@keyframes lds-ellipsis3" + suffixToken + " {0% {transform: scale(1);}100% {transform: scale(0);}}@keyframes lds-ellipsis2" + suffixToken + " {0% {transform: translate(0, 0);}100% {transform: translate(24px, 0);}}";
+  /*LWC compiler v3.0.0*/
+}
+export default [stylesheet];
