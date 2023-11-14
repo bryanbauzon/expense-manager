@@ -1,0 +1,36 @@
+import { freezeTemplate } from "lwc";
+
+import _implicitStylesheets from "./shipment.css";
+
+import _implicitScopedStylesheets from "./shipment.scoped.css?scoped=true";
+
+import {parseSVGFragment, registerTemplate} from "lwc";
+const $fragment1 = parseSVGFragment`<g${3}><path d="M530 536v244c0 6 4 10 10 10l5-1 194-110c19-11 31-31 31-53V407c0-6-4-10-10-10l-5 1-215 121c-6 3-10 10-10 17zm-20-68l216-121c5-3 6-9 3-14l-3-3-195-111a62 62 0 00-62 0L274 330c-5 3-6 9-3 14l3 3 216 121c6 3 14 3 20 0zm-50 51L245 398c-5-3-11-1-14 4l-1 5v218c0 22 12 42 31 53l194 110c5 3 11 1 14-4l1-5V536c0-7-4-14-10-17z"${3}/></g>`;
+function tmpl($api, $cmp, $slotset, $ctx) {
+  const {st: api_static_fragment, h: api_element} = $api;
+  return [api_element("svg", {
+    className: $cmp.computedClass,
+    attrs: {
+      "focusable": "false",
+      "data-key": $cmp.name,
+      "aria-hidden": "true",
+      "viewBox": "0 0 1000 1000",
+      "part": "icon"
+    },
+    key: 0,
+    svg: true
+  }, [api_static_fragment($fragment1(), 2)])];
+  /*LWC compiler v3.0.0*/
+}
+export default registerTemplate(tmpl);
+tmpl.stylesheets = [];
+
+
+if (_implicitStylesheets) {
+  tmpl.stylesheets.push.apply(tmpl.stylesheets, _implicitStylesheets);
+}
+if (_implicitScopedStylesheets) {
+  tmpl.stylesheets.push.apply(tmpl.stylesheets, _implicitScopedStylesheets);
+}
+tmpl.stylesheetToken = "lwc-5jlam0nukm2";
+freezeTemplate(tmpl);

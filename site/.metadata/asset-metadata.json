@@ -1,0 +1,24 @@
+{
+  "assets": {
+    "/public/assets/style.css": {
+      "path": "/1/asset/immutable/s/16973434058404874/public/assets/style.css",
+      "mimeType": "text/css"
+    },
+    "/public/assets/favicon.ico": {
+      "path": "/public/assets/favicon.ico",
+      "mimeType": "image/vnd.microsoft.icon"
+    },
+    "/public/assets/images/banner.png": {
+      "path": "/public/assets/images/banner.png",
+      "mimeType": "image/png"
+    },
+    "/public/assets/recipes-logo.png": {
+      "path": "/public/assets/recipes-logo.png",
+      "mimeType": "image/png"
+    },
+    "/favicon.ico": {
+      "path": "/favicon.ico",
+      "mimeType": "image/vnd.microsoft.icon"
+    }
+  }
+}

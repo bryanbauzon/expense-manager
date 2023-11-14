@@ -1,0 +1,147 @@
+{
+  "bundles": {
+    "lightning/iconSvgTemplatesUtilityRtl": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesUtilityRtl/v/1_19_7-alpha/s/1ea1c8723c1156d62c47a44c835e29b7215540da/bundle_lightning_iconSvgTemplatesUtilityRtl.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesActionRtl": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesActionRtl/v/1_19_7-alpha/s/00c7dbfaddad6833db63f9b3b71508026ebe17a4/bundle_lightning_iconSvgTemplatesActionRtl.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesStandardRtl": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesStandardRtl/v/1_19_7-alpha/s/41da9988c04d6516494d0550535f1c9f4a4286e3/bundle_lightning_iconSvgTemplatesStandardRtl.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesDoctypeRtl": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesDoctypeRtl/v/1_19_7-alpha/s/f496868b322efd3a4b5044f6a000d58769c08511/bundle_lightning_iconSvgTemplatesDoctypeRtl.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesCustomRtl": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesCustomRtl/v/1_19_7-alpha/s/910ced584abfc1dfc178dc7701124727707ec975/bundle_lightning_iconSvgTemplatesCustomRtl.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesUtility": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesUtility/v/1_19_7-alpha/s/92b94c3a7eab796de76bad30d90cf6d2cefb3c03/bundle_lightning_iconSvgTemplatesUtility.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesAction": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesAction/v/1_19_7-alpha/s/1dce5bb4588e4f000f8f3791e81aa1eb055e62bc/bundle_lightning_iconSvgTemplatesAction.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesStandard": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesStandard/v/1_19_7-alpha/s/1458884aefb8be76cf30ce118a5745af5c201fb7/bundle_lightning_iconSvgTemplatesStandard.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesDoctype": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesDoctype/v/1_19_7-alpha/s/d1adbe20e27042ae43d86d888245e8eac7d4da59/bundle_lightning_iconSvgTemplatesDoctype.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lightning/iconSvgTemplatesCustom": {
+      "version": "1.19.7-alpha",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lightning/iconSvgTemplatesCustom/v/1_19_7-alpha/s/bacc83020e8ae01b6fef7e14472e1f5ac5ac0153/bundle_lightning_iconSvgTemplatesCustom.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "lwc": {
+      "version": "3.0.0",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lwc/v/3_0_0/s/161b99d695053a1fe56ab76b88ac3049278f464f/bundle_lwc.js",
+      "includedModules": [],
+      "imports": []
+    },
+    "pages/home": {
+      "version": "0.0.1",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/pages/home/v/0_0_1/s/cbb981a056044027738a7ae86e2c7cf5e514a656/bundle_pages_home.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0",
+        "lwr/esmLoader/v/0_10_10"
+      ]
+    },
+    "lwr/esmLoader": {
+      "version": "0.10.10",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lwr/esmLoader/v/0_10_10/s/67665cb7788d8b7a28ce0666359d8905c2cc3457/bundle_lwr_esmLoader.js",
+      "includedModules": [],
+      "imports": []
+    },
+    "@lwrjs/app-service/home/module/esm": {
+      "version": "0.10.10",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/@lwrjs/app-service/home/module/esm/v/0_10_10/s/ae86e7329fb83a68abbe2ae63d518eb4080f318f/bundle_@lwrjs_app-service_home_module_esm.js",
+      "includedModules": [],
+      "imports": [
+        "lwr/esmLoader/v/0_10_10",
+        "@lwc/synthetic-shadow/v/3_0_0",
+        "lwr/profiler/v/0_10_10",
+        "lwc/v/3_0_0"
+      ]
+    },
+    "@lwc/synthetic-shadow": {
+      "version": "3.0.0",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/@lwc/synthetic-shadow/v/3_0_0/s/1674859a13ca69e54a8280dadba5260ddc479b09/bundle_@lwc_synthetic-shadow.js",
+      "includedModules": [],
+      "imports": []
+    },
+    "lwr/profiler": {
+      "version": "0.10.10",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lwr/profiler/v/0_10_10/s/73b83a598524c8cdd1b3bd2f4f3aedfc8eefdfd4/bundle_lwr_profiler.js",
+      "includedModules": [],
+      "imports": []
+    },
+    "pages/login": {
+      "version": "0.0.1",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/pages/login/v/0_0_1/s/3f3076342bc0f8a9280ecb5b82491208110a3f62/bundle_pages_login.js",
+      "includedModules": [],
+      "imports": [
+        "lwc/v/3_0_0"
+      ]
+    },
+    "@lwrjs/app-service/login/module/esm": {
+      "version": "0.10.10",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/@lwrjs/app-service/login/module/esm/v/0_10_10/s/ae86e7329fb83a68abbe2ae63d518eb4080f318f/bundle_@lwrjs_app-service_login_module_esm.js",
+      "includedModules": [],
+      "imports": [
+        "lwr/esmLoader/v/0_10_10",
+        "@lwc/synthetic-shadow/v/3_0_0",
+        "lwr/profiler/v/0_10_10",
+        "lwc/v/3_0_0"
+      ]
+    }
+  }
+}

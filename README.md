@@ -53,10 +53,14 @@ The LWR server is configured in `lwr.config.json`, at the root of the project. T
 ```
 ## Run Via NPM
 ```bash
+# Clone the repository (Frontend)
+npm install
 #to start the frontend
 npm run dev
  #to start the backend
-npx json-server --watch db.json --port 3004
+
+ #clone Backend repository
+ https://github.com/bryanbauzon/expense-manager-backend
 ```
 <!-- 
 ## Running the Project in dev Mode
