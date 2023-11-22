@@ -2,7 +2,7 @@ import { LightningElement } from "lwc";
 import { categoryList } from "./categoryList";
 import LightningConfirm from "lightning/confirm";
 //* constants
-const BACKEND_URL = "http://*localhost:3002";
+const BACKEND_URL = "http://localhost:3002";
 
 
 const ADD_ACTION = "ADD";
