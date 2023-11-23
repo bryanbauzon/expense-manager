@@ -15,7 +15,7 @@ const COLUMNS = [
     type: "currency",
     fieldName: "Amount__c",
     cellAttributes: { alignment: "left" },
-    typeAttributes: { currencyCode: "USD", step: "0.001" },
+    typeAttributes: { currencyCode: "PHP", step: "0.001" },
     hideDefaultActions: true,
   },
   {
