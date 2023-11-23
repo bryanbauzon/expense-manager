@@ -1,5 +1,6 @@
 import { registerDecorators as _registerDecorators, registerComponent as _registerComponent, LightningElement } from "lwc";
 import _tmpl from "./navbar.html";
+import LightningConfirm from "lightning/confirm";
 class Navbar extends LightningElement {
   constructor(...args) {
     super(...args);
@@ -7,10 +8,22 @@ class Navbar extends LightningElement {
     this.backendUrl = void 0;
   }
   get username() {
-    return this.loggedInUser ? this.loggedInUser.display_name : '';
+    return this.loggedInUser ? this.loggedInUser.display_name : "";
   }
-  get logoutUrl() {
-    return `${this.backendUrl}/oauth2/logout`;
+  logout() {
+    this.confirmationDialog(`${this.backendUrl}/oauth2/logout`);
+  }
+  async confirmationDialog(url) {
+    const result = await LightningConfirm.open({
+      message: "Are you sure do you want to logout?",
+      variant: "header",
+      label: "Confirmation",
+      theme: "warning"
+    });
+    if (result) {
+      window.location.href = url;
+    }
+    return;
   }
   /*LWC compiler v3.0.0*/
 }

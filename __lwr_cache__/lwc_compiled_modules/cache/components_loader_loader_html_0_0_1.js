@@ -5,7 +5,7 @@ import _implicitStylesheets from "./loader.css";
 import _implicitScopedStylesheets from "./loader.scoped.css?scoped=true";
 
 import {parseFragment, registerTemplate} from "lwc";
-const $fragment1 = parseFragment`<div class="loader-wrapper${0}"${2}><div class="lds-ellipsis${0}"${2}><div${3}></div><div${3}></div><div${3}></div><div${3}></div></div></div>`;
+const $fragment1 = parseFragment`<div class="loader-wrapper${0}"${2}><div class="lds-ripple${0}"${2}><div${3}></div><div${3}></div></div></div>`;
 function tmpl($api, $cmp, $slotset, $ctx) {
   const {st: api_static_fragment} = $api;
   return [api_static_fragment($fragment1(), 1)];

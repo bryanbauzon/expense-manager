@@ -10,6 +10,7 @@ const EDIT_ACTION = "EDIT";
 
 export default class Home extends LightningElement {
   expenseRecords = [];
+  hasRecords = false;
   chartData;
   categoryTableData = [];
   showModal = false;
@@ -39,6 +40,7 @@ export default class Home extends LightningElement {
   async fetchExpenseData(){
     const expenses = await this.getExpenses();
         this.expenseRecords = expenses.totalSize > 0 ? expenses.records : [];
+        this.hasRecords = expenses.totalSize > 0;
         this.createChartData();
   }
   //* Method to get loggedIn user data
@@ -119,7 +121,7 @@ export default class Home extends LightningElement {
   formatCurrency(number) {
     return number.toLocaleString("en-US", {
       style: "currency",
-      currency: "USD",
+      currency: "PHP",
     });
   }
   //*Handlers

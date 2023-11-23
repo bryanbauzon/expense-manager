@@ -8,13 +8,14 @@ function _toPrimitive(input, hint) { if (typeof input !== "object" || input === 
 import { categoryList } from "./categoryList";
 import LightningConfirm from "lightning/confirm";
 //* constants
-const BACKEND_URL = "http://*localhost:3002";
+const BACKEND_URL = "http://localhost:3002";
 const ADD_ACTION = "ADD";
 const EDIT_ACTION = "EDIT";
 class Home extends LightningElement {
   constructor(...args) {
     super(...args);
     this.expenseRecords = [];
+    this.hasRecords = false;
     this.chartData = void 0;
     this.categoryTableData = [];
     this.showModal = false;
@@ -40,6 +41,7 @@ class Home extends LightningElement {
   async fetchExpenseData() {
     const expenses = await this.getExpenses();
     this.expenseRecords = expenses.totalSize > 0 ? expenses.records : [];
+    this.hasRecords = expenses.totalSize > 0;
     this.createChartData();
   }
   //* Method to get loggedIn user data
@@ -114,7 +116,7 @@ class Home extends LightningElement {
   formatCurrency(number) {
     return number.toLocaleString("en-US", {
       style: "currency",
-      currency: "USD"
+      currency: "PHP"
     });
   }
   //*Handlers
@@ -205,7 +207,7 @@ class Home extends LightningElement {
   /*LWC compiler v3.0.0*/
 }
 _registerDecorators(Home, {
-  fields: ["expenseRecords", "chartData", "categoryTableData", "showModal", "formData", "action", "loggedInUser", "showSpinner", "backendUrl"]
+  fields: ["expenseRecords", "hasRecords", "chartData", "categoryTableData", "showModal", "formData", "action", "loggedInUser", "showSpinner", "backendUrl"]
 });
 export default _registerComponent(Home, {
   tmpl: _tmpl,

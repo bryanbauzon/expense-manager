@@ -21,6 +21,9 @@ const stc2 = {
   key: 4
 };
 const stc3 = {
+  "href": "javascript:void(0);"
+};
+const stc4 = {
   classMap: {
     "logo-icon": true
   },
@@ -33,13 +36,15 @@ const stc3 = {
   key: 6
 };
 function tmpl($api, $cmp, $slotset, $ctx) {
-  const {st: api_static_fragment, d: api_dynamic_text, t: api_text, h: api_element, c: api_custom_element} = $api;
+  const {st: api_static_fragment, d: api_dynamic_text, t: api_text, h: api_element, b: api_bind, c: api_custom_element} = $api;
+  const {_m0} = $ctx;
   return [api_element("nav", stc0, [api_static_fragment($fragment1(), 2), api_element("div", stc1, [api_element("span", stc2, [api_text(api_dynamic_text($cmp.username))]), api_element("a", {
-    attrs: {
-      "href": $cmp.logoutUrl
-    },
-    key: 5
-  }, [api_custom_element("lightning-icon", _lightningIcon, stc3)])])])];
+    attrs: stc3,
+    key: 5,
+    on: {
+      "click": _m0 || ($ctx._m0 = api_bind($cmp.logout))
+    }
+  }, [api_custom_element("lightning-icon", _lightningIcon, stc4)])])])];
   /*LWC compiler v3.0.0*/
 }
 export default registerTemplate(tmpl);

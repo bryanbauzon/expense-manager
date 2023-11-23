@@ -3,13 +3,16 @@
     <h2>Expense Manager</h2>
     <div>
       <span class="slds-m-right_small slds_truncate">{username}</span>
-     <a href={logoutUrl}><lightning-icon
-      icon-name="utility:logout"
-      alternative-text="logout"
-      size="small"
-      title="logout"
-      class="logo-icon"
-    ></lightning-icon></a>
+
+      <a href="javascript:void(0);" onclick={logout}>
+        <lightning-icon
+          icon-name="utility:logout"
+          alternative-text="logout"
+          size="small"
+          title="logout"
+          class="logo-icon"
+        ></lightning-icon>
+      </a>
     </div>
   </nav>
 </template>
